@@ -1,6 +1,6 @@
 # Aplicativo Proposto para Similaridade entre Músicas em Plataformas de Streaming
 
-#### Uma Abordagem via Metaheurísticas BRKGA e KNN PARA O Problema de Minimização da Soma das Diversidades
+> Uma Abordagem via Metaheurísticas BRKGA e KNN PARA O Problema de Minimização da Soma das Diversidades
 
 #### Aplicação construída durante a pesquisa de Iniciação Científica intitulada “ Similaridade entre Músicas em Plataformas de Streaming: Uma Abordagem via Metaheurísticas BRKGA e KNN PARA O Problema de Minimização da Soma das Diversidades", no período de 03/2022 à 03/2023, ofertada na Universidade Federal de Ouro Preto, durante minha graduação em Sistemas de Informação.
 
@@ -18,11 +18,7 @@
 
 #### No aplicativo em questão, é feita uma extração de dados de uma determinada playlist na plataforma Spotify (utilizando a biblioteca para Python, Spotipy), retornando 7 atributos variáveis que são medidos pelo próprio Spotify, dentre eles estão: Acústica, Dançabilidade, Energia, Índice Instrumental, Discurso, Valência e Vivacidade. Obs. Cada atributo possuí uma variação de 0 (onde se entende que a presença do atributo é nulo) até 1 (presença total).
 
-<br/>
-
 #### Com os dados extraídos, é feito um cálculo de distâncias de uma música para a outra, na forma euclidiana.
-
-<br/>
 
 #### Com os dados extraídos e feito os cálculos, é empregado o algoritmo BRKGA para encontrar dentre um determinado grupo de músicas, com base em seus atributos, quais músicas são mais semelhantes entre si.
 
@@ -114,7 +110,5 @@
 # Conclusão
 
 #### A aplicação desenvolvida tem o propósito de trazer vida para a pesquisa de Iniciação Científica em questão, com uma interface amigável e cheia de cores. O maior desafio foi justamente integrar o Backend da aplicação, no qual foi desenvolvido em C++, com o Frontend na qual foi desenvolvido em React e TypeScript. Utilizando uma API do tipo REST, desenvolvida em Python, foi possível tal feito, talvez não de forma mais padronizada, mas de uma forma funcional e que no final, deu certo.
-
-<br/>
 
 #### No futuro, talvez, será possível aperfeiçoar e subtrair as carências apresentadas no projeto.
