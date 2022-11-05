@@ -37,7 +37,7 @@
 
 <br/>
 
-# Apresentção do aplicativo
+# Apresentação do aplicativo
 
 ## Tela Inicial
 
